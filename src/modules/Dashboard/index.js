@@ -1,7 +1,13 @@
 import React from "react";
+import Home from "./Home";
 
 const Dashboard = () => {
-  return <div>Dashboard Module</div>;
+  return (
+    <div>
+      Dashboard Module
+      <Home />
+    </div>
+  );
 };
 
 export default {
